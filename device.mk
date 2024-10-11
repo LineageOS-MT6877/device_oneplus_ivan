@@ -17,7 +17,7 @@
 DEVICE_PATH := device/oplus/ivan
 
 # Inherit from ossi device
-$(call inherit-product, device/oplus/mt6877-common/ossi.mk)
+$(call inherit-product, device/oplus/mt6877-common/common.mk)
 
 # Display saturation adjust
 PRODUCT_VENDOR_PROPERTIES += \
