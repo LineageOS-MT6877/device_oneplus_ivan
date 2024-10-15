@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lmodroid_ivan.mk
+    $(LOCAL_DIR)/derp_ivan.mk
 
 COMMON_LUNCH_CHOICES := \
-    lmodroid_ivan-user \
-    lmodroid_ivan-userdebug \
-    lmodroid_ivan-eng
+    derp_ivan-user \
+    derp_ivan-userdebug \
+    derp_ivan-eng
