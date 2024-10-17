@@ -24,9 +24,21 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.sys.sf.color_saturation=0.95
 
 # Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
+# Overlays - RU translations
+DEVICE_PACKAGE_OVERLAYS += \
+    packages/resources/translations/overlay
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    packages/resources/translations/overlay
+
 PRODUCT_PACKAGES += \
-    FrameworkResOverlayivan \
-    SettingsProviderOverlayivan
+    OPlusExtrasResTarget \
+    OPlusFrameworksResTarget \
+    OPlusSettingsProviderResTarget \
+    OPlusSettingsResTarget \
+    OPlusSystemUIResTarget
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/oplus/ivan/ivan-vendor.mk)
