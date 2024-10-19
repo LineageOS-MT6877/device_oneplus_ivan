@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Whether device has warp charging support -->
-    <bool name="config_hasWarpCharger">true</bool>
+    <bool name="config_hasVoocCharger">true</bool>
 
     <!-- Path to warp charging status file -->
     <string name="config_oemFastChargerStatusPath">/sys/class/power_supply/battery/fastcharger</string>
