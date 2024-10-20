@@ -20,6 +20,6 @@
     <bool name="config_hasVoocCharger">true</bool>
 
     <!-- Path to warp charging status file -->
-    <string name="config_oemFastChargerStatusPath">/sys/class/power_supply/battery/fastcharger</string>
+    <string name="config_oemFastChargerStatusPath">/sys/class/oplus_chg/battery/fast_charge</string>
 
 </resources>
